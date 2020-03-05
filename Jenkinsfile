@@ -9,7 +9,7 @@ steps{
     bat 'mvn -version'
 }
 }
- stage ('clean')
+ stage ('clean'){
  steps {
  'mvn clean'
  }
