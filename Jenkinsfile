@@ -11,7 +11,7 @@ steps{
 }
  stage ('clean'){
  steps {
- 'mvn clean'
+ bat 'mvn clean'
  }
  }
  stage ('install'){
